@@ -34,7 +34,7 @@ input:focus,textarea:focus{border:0px !important;box-shadow:0 0 0 0 !important;}
 #navigation ul li#about.nav-current{background:url("../img/navigation2.png") no-repeat -602px -87px;}
 #navigation ul li#faq{width:100px;}#navigation ul li#faq a:hover{background:url("../img/navigation2.png") no-repeat -742px -87px;}
 #navigation ul li#faq.nav-current{background:url("../img/navigation2.png") no-repeat -743px -87px;}
-#slideshow{margin:20px auto 0;padding:0;position:relative;}#slideshow ul{position:relative;overflow:hidden;margin:0;padding:0;}#slideshow ul li{position:absolute;top:0;left:0;margin:0;padding:0;list-style:none;}#slideshow ul li .titleCaption{width:290px;height:25px;margin:0;padding:7px 15px 7px 15px;position:absolute;top:320px;left:30px;font-family:"bodyTextLight";font-size:23px;letter-spacing:.5px;color:#cccccc;background:#1f1d1e;}
+#slideshow{margin:20px auto 0;padding:0;position:relative;}#slideshow ul{position:relative;overflow:hidden;margin:0;padding:0;}#slideshow ul li{position:absolute;top:0;left:0;margin:0;padding:0;list-style:none;}#slideshow ul li .titleCaption{width:310px;height:25px;margin:0;padding:7px 15px 7px 15px;position:absolute;top:320px;left:30px;font-family:"bodyTextLight";font-size:23px;letter-spacing:.5px;color:#cccccc;background:#1f1d1e;}
 #slideshow ul li .altCaption{width:210px;height:36px;margin:0;padding:7px 15px 7px 15px;position:absolute;top:365px;left:30px;font-family:"bodyTextLight";font-size:13px;letter-spacing:.5px;color:#cccccc;background:#1f1d1e;line-height:17px;}
 #slideshow #pagination{clear:both;width:75px;margin:25px auto 0;padding:0;position:absolute;top:410px;left:15px;z-index:999;}#slideshow #pagination li{list-style:none;float:left;margin:0 2px;}#slideshow #pagination li a{display:block;width:13px;height:14px;text-indent:-10000px;background:url(../img/pagination.png);}
 #slideshow #pagination li a.active{background-position:0 41px;}
@@ -44,7 +44,7 @@ input:focus,textarea:focus{border:0px !important;box-shadow:0 0 0 0 !important;}
 #contentContainer.homepage input{box-shadow:0 0 0 0 !important;}
 #contentContainer.homepage #row1{padding-top:35px !important;overflow:hidden;}#contentContainer.homepage #row1 #welcome{float:left;width:550px;margin-left:30px;}
 #contentContainer.homepage #row1 #newsletterSignUp{float:left;width:240px;border-right:1px solid #cccccc;padding-right:25px;padding-bottom:20px;}#contentContainer.homepage #row1 #newsletterSignUp h1{text-align:center;}
-#contentContainer.homepage #row1 #newsletterSignUp form{margin-top:12px;}#contentContainer.homepage #row1 #newsletterSignUp form #emailAddress{height:30px;padding:0 0 0 15px;font-family:"bodyTextItalic";font-size:13px;color:#30282c !important;vertical-align:top;width:149px;background:url("../img/newsletterTxt.png") no-repeat;}
+#contentContainer.homepage #row1 #newsletterSignUp form{margin-top:12px;}#contentContainer.homepage #row1 #newsletterSignUp form #emailAddress{padding:6px 0 6px 15px;font-family:"bodyTextItalic";font-size:13px;color:#30282c !important;vertical-align:middle;margin-top:5px;width:149px;background:url("../img/newsletterTxt.png") no-repeat;}
 #contentContainer.homepage #row1 #newsletterSignUp form #submitBtn{margin-top:0px !important;margin-left:5px;}
 #contentContainer.homepage #row1 #newsletterSignUp form .error{border:3px solid red;}
 #contentContainer.homepage #row1 #newsletterSignUp #loader{background:url("../img/ajax-loader.gif") no-repeat;width:30px;height:30px;display:none;margin:10px auto 0;}
