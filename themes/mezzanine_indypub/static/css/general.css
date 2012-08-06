@@ -22,7 +22,7 @@ input:focus,textarea:focus{border:0px !important;box-shadow:0 0 0 0 !important;}
 #topHeader #top #secondCol #socialMedia #google:hover{background:url("../img/socialMedia.png") no-repeat -111px -37px;}
 #topHeader #top #secondCol #socialMedia #vimeo:hover{background:url("../img/socialMedia.png") no-repeat -148px -37px;}
 #topHeader #top #secondCol #socialMedia #rss:hover{background:url("../img/socialMedia.png") no-repeat -185px -37px;}
-#topHeader #top #secondCol #search{width:243px;margin:20px auto 0;}#topHeader #top #secondCol #search input{width:243px;height:38px;padding-left:10px;padding-top:0px !important;font-family:"bodyText";color:"../img/search.png";font-size:14px;background:url("../img/search.png") no-repeat;}
+#topHeader #top #secondCol #search{width:243px;margin:20px auto 0;}#topHeader #top #secondCol #search input{width:243px;height:20px;padding-left:10px;padding-top:10px;padding-bottom:10px;font-family:"bodyText";color:"../img/search.png";font-size:14px;background:url("../img/search.png") no-repeat;}
 #navigation{background:url("../img/navigation2.png") no-repeat;width:989px;height:69px;margin-top:10px;}#navigation ul{margin:0 auto;padding-left:0;padding-top:15px;list-style-type:none;width:695px;background:none;position:relative;top:0px;}#navigation ul li{display:block;float:left;height:45px;margin-left:5px;}#navigation ul li a:link,#navigation ul li a:active,#navigation ul li a:visited{display:block;height:45px;}
 #navigation ul li#home{width:87px;margin-left:0px !important;}#navigation ul li#home a:hover{background:url("../img/navigation2.png") no-repeat -148px -87px;}
 #navigation ul li#home.nav-current{background:url("../img/navigation2.png") no-repeat -148px -87px;}
