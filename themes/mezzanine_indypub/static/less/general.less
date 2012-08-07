@@ -15,6 +15,9 @@
 	@bookAuthors: #3f3a34;
 	@footerHeader: #87827d;
 	@footerLinks: #6a6560;
+	@links: #31292d;
+	@submitBtnTop: #342c30;
+	@submitBtnBottom: #261d22;
 
 ///Images:
 
@@ -109,7 +112,8 @@ html, body, #contentWrapper {
 }
 
 body > #contentWrapper { 
-	height: auto; min-height: 100%; 
+	height: auto; 
+	min-height: 200px; 
 }
 
 body {
@@ -117,6 +121,13 @@ body {
 	background: url("@{fullBG}") repeat-x;
 }
 
+a:link,
+a:active,
+a:visited,
+a:hover {
+	color: @links;
+	font-family: "bodyTextBold";
+}
 
 input {	
 	border: 0px !important;
@@ -156,6 +167,7 @@ input:focus, textarea:focus {
 
 .navbar {
 	height: 34px;
+	min-width: 989px;
 	width: 100%;
 	background: url("@{topBarBG}") repeat-x !important;
 	margin-bottom: 0px !important;
@@ -344,6 +356,75 @@ input:focus, textarea:focus {
 			}
 		}
 				
+	}
+}
+
+/****-Breadcrumbs-****/
+#content {
+	.breadcrumb {
+		background-color: transparent !important;
+		background-image: none !important;
+		border: 0px !important;
+		border-radius: 0 0 0 0 !important;
+		box-shadow: 0 0 0 0 !important;
+		margin: 20px 0 0 !important;
+		padding: 7px 40px !important;
+	}
+}
+
+
+/****-Form Elements-****/
+#content {
+	.controls {
+		input {
+			border: 1px solid @gray-level1 !important;
+			margin-top: 5px;
+		}
+	}
+	
+	.control-group {
+		.control-label {
+			padding-bottom: 10px;
+		}
+		
+		label {
+			font-weight: normal !important;
+			font-family: "bodyTextBold" !important;
+			color: @bodyText !important;
+		}
+	}
+	
+	.form-actions {
+		padding: 5px 20px 10px 10px !important;
+		border-top: 0px !important;
+		background: none !important;
+		margin-top: 0px !important;
+		margin-bottom: 0px !important;
+		
+		.btn-primary{
+			background-color:#342c30;
+			background-image:-moz-linear-gradient(top, @submitBtnTop, @submitBtnBottom);
+			background-image:-ms-linear-gradient(top, @submitBtnTop, @submitBtnBottom);
+			background-image:-webkit-gradient(linear, 0 0, 0 100%, from(@submitBtnTop), to(@submitBtnBottom));
+			background-image:-webkit-linear-gradient(top, @submitBtnTop, @submitBtnBottom);
+			background-image:-o-linear-gradient(top, @submitBtnTop, @submitBtnBottom);
+			background-image:linear-gradient(top, @submitBtnTop, @submitBtnBottom);
+			background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='@submitBtnTop', endColorstr='@submitBtnBottom', GradientType=0);
+			border-color:@submitBtnBottom @submitBtnBottom #003580;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+			filter:progid:dximagetransform.microsoft.gradient(enabled=false);
+		}
+		
+		.btn-primary:hover,
+		.btn-primary:active,
+		.btn-primary.active,
+		.btn-primary.disabled,
+		.btn-primary[disabled]{
+			background-color:@submitBtnBottom;
+		}
+		
+		input {
+			font-family: "bodyText" !important;
+		}
 	}
 }
 
