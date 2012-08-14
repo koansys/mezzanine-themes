@@ -15,8 +15,8 @@
 	@bookAuthors: #3f3a34;
 	@footerHeader: #87827d;
 	@footerLinks: #6a6560;
-	@links: #31292d;
-	@submitBtnTop: #342c30;
+	@links: #4e4842;
+	@submitBtnTop: #493e43;
 	@submitBtnBottom: #261d22;
 
 ///Images:
@@ -125,8 +125,8 @@ a:link,
 a:active,
 a:visited,
 a:hover {
-	color: @links;
-	font-family: "bodyTextBold";
+	color: @links !important;
+	font-family: "bodyText";
 }
 
 input {	
@@ -803,7 +803,7 @@ footer {
 			ul {
 				padding: 0;
 				float: left;
-				width: 140px;
+				width: 145px;
 				list-style-type: none;
 				
 				li.header {
@@ -895,6 +895,14 @@ footer {
 		}
 	}
 			
+}
+
+.faq {
+	p {
+		a:first-child {
+			font-family: "bodyTextBold" !important;
+		}
+	}
 }
 
 
