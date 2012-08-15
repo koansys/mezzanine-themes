@@ -369,6 +369,7 @@ input:focus, textarea:focus {
 		box-shadow: 0 0 0 0 !important;
 		margin: 20px 0 0 !important;
 		padding: 7px 40px !important;
+		filter: none !important;
 	}
 }
 
@@ -395,11 +396,10 @@ input:focus, textarea:focus {
 	}
 	
 	.form-actions {
-		padding: 5px 20px 10px 10px !important;
+		padding: 5px 20px 10px 0px !important;
 		border-top: 0px !important;
 		background: none !important;
-		margin-top: 0px !important;
-		margin-bottom: 0px !important;
+		margin: 0px !important;
 		
 		.btn-primary{
 			background-color:#342c30;
@@ -412,6 +412,11 @@ input:focus, textarea:focus {
 			background-repeat:repeat-x;filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='@submitBtnTop', endColorstr='@submitBtnBottom', GradientType=0);
 			border-color:@submitBtnBottom @submitBtnBottom #003580;border-color:rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
 			filter:progid:dximagetransform.microsoft.gradient(enabled=false);
+		}
+		
+		.a.btn-large, 
+		input.btn-large {
+			min-width: 0 !important;
 		}
 		
 		.btn-primary:hover,
@@ -826,7 +831,7 @@ footer {
 					a:active,
 					a:visited {
 						font-family: "bodyTextLight";
-						color: @footerLinks;
+						color: @footerLinks !important;
 						font-size: 13px;
 						text-decoration: none;
 					}
