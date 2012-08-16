@@ -1,29 +1,28 @@
 $(function(){
 	$("#slideshow").craftyslide();
 	
+	var root = location.protocol + '//' + location.host + "/";
+	$("#navigation ul li#home a").attr("href", root);
+	
 	//Go through each navigation Item
 	$("#navigation ul li a").each(function() {
 		var currentURL = window.location.toString();
 		var navigationLocation = $(this).attr("href");
-				
+		
 		//If the navigation item url contains text from the current URL
-		if (currentURL.indexOf(navigationLocation) != -1) {
-			$(this).parent().addClass("nav-current");
-			
-			var navigationLocationSubStr = navigationLocation.substring(0, navigationLocation.length-5);
-			
-			$("#largePicture").addClass(navigationLocationSubStr);
+		if (currentURL.indexOf(navigationLocation) != 0) {
+			if (currentURL.indexOf(navigationLocation) != -1) {
+				$(this).parent().addClass("nav-current");
+			}
 		}
 		
-		//If the URL is the root
-		else if ( $("#header").hasClass("homepage")) {
-			$("#navigation ul li:first-child a").addClass("selected");
-			$("#largePicture").addClass("home");
+		//If the page is at the root
+		if (currentURL == root) {
+			$("#navigation ul li#home").addClass("nav-current");
 		}
+		
 	});
 	
-	$("#awardsChart tr:odd td").addClass("lastrow");
-
 });
 
 function validateNewsletterSignUp(form) {	
