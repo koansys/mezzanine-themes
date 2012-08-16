@@ -121,14 +121,6 @@ body {
 	background: url("@{fullBG}") repeat-x;
 }
 
-a:link,
-a:active,
-a:visited,
-a:hover {
-	color: @links !important;
-	font-family: "bodyText";
-}
-
 input {	
 	border: 0px !important;
 	border-radius: 0 0 0 0 !important;
@@ -152,6 +144,15 @@ input:focus, textarea:focus {
 	#contentContainer {
 		padding: 20px 40px;
 		overflow: hidden;
+		
+		a:link,
+		a:active,
+		a:visited,
+		a:hover {
+			color: @links;
+			font-family: "bodyText";
+		}
+
 	}
 }
 
