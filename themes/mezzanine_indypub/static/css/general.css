@@ -23,7 +23,7 @@ input:focus,textarea:focus{border:0px !important;box-shadow:0 0 0 0 !important;}
 #topHeader #top #secondCol #socialMedia #vimeo:hover{background:url("../img/socialMedia.png") no-repeat -148px -37px;}
 #topHeader #top #secondCol #socialMedia #rss:hover{background:url("../img/socialMedia.png") no-repeat -185px -37px;}
 #topHeader #top #secondCol #search{width:243px;margin:20px auto 0;}#topHeader #top #secondCol #search input{width:243px;height:20px;padding-left:10px;padding-top:10px;padding-bottom:10px;font-family:"bodyText";color:"../img/search.png";font-size:14px;background:url("../img/search.png") no-repeat;}
-#content .breadcrumb{background-color:transparent !important;background-image:none !important;border:0px !important;border-radius:0 0 0 0 !important;box-shadow:0 0 0 0 !important;margin:20px 0 0 !important;padding:7px 40px !important;filter:none !important;}
+#content .breadcrumb{background-color:transparent !important;background-image:none !important;border:0px !important;border-radius:0 0 0 0 !important;box-shadow:0 0 0 0 !important;margin:20px 0 0 !important;padding:7px 40px !important;filter:none !important;}#content .breadcrumb a:link,#content .breadcrumb a:active,#content .breadcrumb a:visited,#content .breadcrumb a:hover{color:#7f7f77 !important;}
 #content .controls input{border:1px solid #cccccc !important;margin-top:5px;}
 #content .control-group .control-label{padding-bottom:10px;}
 #content .control-group label{font-weight:normal !important;font-family:"bodyTextBold" !important;color:#30282c !important;}
@@ -47,23 +47,23 @@ input:focus,textarea:focus{border:0px !important;box-shadow:0 0 0 0 !important;}
 #slideshow #pagination{clear:both;width:75px;margin:25px auto 0;padding:0;position:absolute;top:410px;left:15px;z-index:999;}#slideshow #pagination li{list-style:none;float:left;margin:0 2px;}#slideshow #pagination li a{display:block;width:13px;height:14px;text-indent:-10000px;background:url(../img/pagination.png);}
 #slideshow #pagination li a.active{background-position:0 41px;}
 #slideshow #pagination li a:focus{outline:none !important;}
-#contentContainer.homepage h1{font-weight:normal;font-family:"bodyTextItalic";font-size:25px;color:#30282c;margin-bottom:15px !important;}
-#contentContainer.homepage p{font-family:"bodyTextLight";font-size:13px;line-height:21px;color:#7f7f77;}
-#contentContainer.homepage input{box-shadow:0 0 0 0 !important;}
-#contentContainer.homepage #row1{padding-top:35px !important;overflow:hidden;}#contentContainer.homepage #row1 #welcome{float:left;width:550px;margin-left:30px;}
-#contentContainer.homepage #row1 #newsletterSignUp{float:left;width:240px;border-right:1px solid #cccccc;padding-right:25px;padding-bottom:20px;}#contentContainer.homepage #row1 #newsletterSignUp h1{text-align:center;}
-#contentContainer.homepage #row1 #newsletterSignUp form{margin-top:12px;}#contentContainer.homepage #row1 #newsletterSignUp form #emailAddress{padding:6px 0 6px 15px;font-family:"bodyTextItalic";font-size:13px;color:#30282c !important;vertical-align:middle;margin-top:5px;width:149px;background:url("../img/newsletterTxt.png") no-repeat;}
-#contentContainer.homepage #row1 #newsletterSignUp form #submitBtn{margin-top:0px !important;margin-left:5px;}
-#contentContainer.homepage #row1 #newsletterSignUp form .error{border:3px solid red;}
-#contentContainer.homepage #row1 #newsletterSignUp #loader{background:url("../img/ajax-loader.gif") no-repeat;width:30px;height:30px;display:none;margin:10px auto 0;}
-#contentContainer.homepage #row1 #newsletterSignUp #submitted{font-size:12px;font-family:"bodyText";color:#30282c;display:none;margin:10px auto 0;text-align:center;width:196px;}
-#contentContainer.homepage #row2{padding:50px 0 25px;overflow:hidden;}#contentContainer.homepage #row2 #featuredAuthors{background:url("../img/featuredAuthors.png") no-repeat;margin:0 auto;width:922px;height:25px;}
-#contentContainer.homepage #row2 #booksWrapper{width:922px;padding-top:35px;margin:0 auto;overflow:hidden;}#contentContainer.homepage #row2 #booksWrapper .book{width:214px;height:238px;background:url("../img/bookFrame.png") no-repeat center top;float:left;margin-left:10px;}#contentContainer.homepage #row2 #booksWrapper .book .bookRibbon{width:213px;height:34px;position:relative;top:14px;text-align:center;padding-top:10px;font-family:"bodyTextLight";color:#3f3a34;font-size:15px;background:url("../img/bookRibbon.png") no-repeat;}
-#contentContainer.homepage #row2 #booksWrapper .book .bookIMG{width:110px;height:163px;margin:15px auto 0;}
-#contentContainer.homepage #row2 #booksWrapper #book1{margin-left:0px !important;}#contentContainer.homepage #row2 #booksWrapper #book1 .bookIMG{background:url("../img/book_baxter.png") no-repeat;}
-#contentContainer.homepage #row2 #booksWrapper #book2 .bookIMG{background:url("../img/book_teppo.png") no-repeat;}
-#contentContainer.homepage #row2 #booksWrapper #book3 .bookIMG{background:url("../img/book_howey.png") no-repeat;}
-#contentContainer.homepage #row2 #booksWrapper #book4 .bookIMG{background:url("../img/book_scalzi.png") no-repeat;}
+#contentContainer h1{font-weight:normal;font-family:"bodyTextItalic";font-size:25px;color:#30282c;margin-bottom:15px !important;}
+#contentContainer p{font-family:"bodyTextLight";font-size:13px;line-height:21px;color:#7f7f77;}
+#contentContainer input{box-shadow:0 0 0 0 !important;}
+#contentContainer #row1{padding-top:35px !important;overflow:hidden;}#contentContainer #row1 #welcome{float:left;width:550px;margin-left:30px;}
+#contentContainer #row1 #newsletterSignUp{float:left;width:240px;border-right:1px solid #cccccc;padding-right:25px;padding-bottom:20px;}#contentContainer #row1 #newsletterSignUp h1{text-align:center;}
+#contentContainer #row1 #newsletterSignUp form{margin-top:12px;}#contentContainer #row1 #newsletterSignUp form #emailAddress{padding:6px 0 6px 15px;font-family:"bodyTextItalic";font-size:13px;color:#30282c !important;vertical-align:middle;margin-top:5px;width:149px;background:url("../img/newsletterTxt.png") no-repeat;}
+#contentContainer #row1 #newsletterSignUp form #submitBtn{margin-top:0px !important;margin-left:5px;}
+#contentContainer #row1 #newsletterSignUp form .error{border:3px solid red;}
+#contentContainer #row1 #newsletterSignUp #loader{background:url("../img/ajax-loader.gif") no-repeat;width:30px;height:30px;display:none;margin:10px auto 0;}
+#contentContainer #row1 #newsletterSignUp #submitted{font-size:12px;font-family:"bodyText";color:#30282c;display:none;margin:10px auto 0;text-align:center;width:196px;}
+#contentContainer #row2{padding:50px 0 25px;overflow:hidden;}#contentContainer #row2 #featuredAuthors{background:url("../img/featuredAuthors.png") no-repeat;margin:0 auto;width:922px;height:25px;}
+#contentContainer #row2 #booksWrapper{width:922px;padding-top:35px;margin:0 auto;overflow:hidden;}#contentContainer #row2 #booksWrapper .book{width:214px;height:238px;background:url("../img/bookFrame.png") no-repeat center top;float:left;margin-left:10px;}#contentContainer #row2 #booksWrapper .book .bookRibbon{width:213px;height:34px;position:relative;top:14px;text-align:center;padding-top:10px;font-family:"bodyTextLight";color:#3f3a34;font-size:15px;background:url("../img/bookRibbon.png") no-repeat;}
+#contentContainer #row2 #booksWrapper .book .bookIMG{width:110px;height:163px;margin:15px auto 0;}
+#contentContainer #row2 #booksWrapper #book1{margin-left:0px !important;}#contentContainer #row2 #booksWrapper #book1 .bookIMG{background:url("../img/book_baxter.png") no-repeat;}
+#contentContainer #row2 #booksWrapper #book2 .bookIMG{background:url("../img/book_teppo.png") no-repeat;}
+#contentContainer #row2 #booksWrapper #book3 .bookIMG{background:url("../img/book_howey.png") no-repeat;}
+#contentContainer #row2 #booksWrapper #book4 .bookIMG{background:url("../img/book_scalzi.png") no-repeat;}
 footer{background:url("../img/footerBG.png") repeat-x !important;clear:both;position:relative;z-index:10;height:261px;margin-top:-80px !important;padding:0px !ipmortant;min-width:989px;}footer #footerWrapper{width:929px;padding:0 20px;margin:0 auto;}footer #footerWrapper #row1{overflow:hidden;}footer #footerWrapper #row1 ul{padding:0;float:left;width:145px;list-style-type:none;}footer #footerWrapper #row1 ul li.header{text-transform:uppercase;font-family:"bodyText";font-size:15px;color:#87827d;padding-bottom:15px;}
 footer #footerWrapper #row1 ul li{padding-bottom:5px;font-family:"bodyTextLight";color:#6a6560;font-size:13px;float:none !important;}footer #footerWrapper #row1 ul li a:link,footer #footerWrapper #row1 ul li a:active,footer #footerWrapper #row1 ul li a:visited{font-family:"bodyTextLight";color:#6a6560 !important;font-size:13px;text-decoration:none;}
 footer #footerWrapper #row1 ul li a:hover{text-decoration:underline;}

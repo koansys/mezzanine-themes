@@ -19,6 +19,7 @@ $(function(){
 		//If the page is at the root
 		if (currentURL == root) {
 			$("#navigation ul li#home").addClass("nav-current");
+			$("#contentContainer h2").first().hide();
 		}
 		
 	});
